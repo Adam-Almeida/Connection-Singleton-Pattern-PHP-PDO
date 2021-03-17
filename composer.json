@@ -1,0 +1,23 @@
+{
+  "name": "crud/crud-entrevistas",
+  "description": "Crud Completo de estudos",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Adam Almeida",
+      "email": "adam.desigjuridico@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Boot/Config.php"
+    ]
+  }
+}
